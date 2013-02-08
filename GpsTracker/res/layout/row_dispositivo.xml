@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	 <TextView
+        android:id="@+id/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textSize="16sp" />
+    
+    <TextView
+        android:id="@+id/numTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nome"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Numero telefono"
+        android:textSize="14sp" />
+    
+     <TextView
+        android:id="@+id/descrizione"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numTelefono"
+        android:layout_marginTop="5dp"
+        android:text="Descrizione"
+        android:textSize="16sp" />
+     
+</RelativeLayout>

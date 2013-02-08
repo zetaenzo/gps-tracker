@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GpsTracker</string>
+    <string name="smsmsg">il msg apparirà qui</string>
+    <string name="aggiorna">Aggiorna</string>
+    <string name="modifica">Modifica</string>
+    <string name="elimina">Elimina</string>
+    <string name="aggiungi">Aggiungi</string>
+   	<string name="intro_add_disp">Inserisci nuovo dispositivo gps</string>
+    <string name="intro_edit_disp">Modifica dispositivo gps</string>
+	<string name="descrizione">Descrizione</string>
+	<string name="num_telefono">Numero telefono</string>
+    <string name="nome">Nome</string>
+    <string name="elimina_selezionati">elimina</string>
+    <string name="gestisci_dispositivi">Gestisci dispositivi</string>
+    <string name="button_inserisci">Inserisci</string>
+
+</resources>

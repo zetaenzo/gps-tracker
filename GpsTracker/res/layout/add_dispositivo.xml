@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/intro_add_edit_disp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dip"
+        android:layout_marginTop="15dip"
+        android:text="@string/intro_add_disp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nome" />
+
+    <EditText
+        android:id="@+id/edit_nome_dispositivo"
+        android:hint="@string/nome"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:text="@string/descrizione" />
+
+    <EditText
+        android:id="@+id/edit_descrizione_dispositivo"
+        android:hint="@string/descrizione"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+    
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:text="@string/num_telefono" />
+
+    <EditText
+        android:id="@+id/edit_numtel_dispositivo"
+        android:hint="@string/num_telefono"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <Button
+        android:id="@+id/inserisci_dispositivo_button"
+        android:layout_width="130dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dip"
+        android:layout_marginTop="15dip"
+        android:text="@string/button_inserisci" />
+
+</LinearLayout>
